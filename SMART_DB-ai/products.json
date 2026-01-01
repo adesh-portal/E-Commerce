@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Aurora Wireless Headphones",
+    "category": "Electronics",
+    "brand": "Aurora",
+    "price": 99.99,
+    "rating": 4.5,
+    "reviewCount": 142,
+    "stock": 120,
+    "image": "https://via.placeholder.com/600x600?text=Aurora+Headphones",
+    "images": [
+      "https://via.placeholder.com/1200x800?text=Aurora+Headphones+1",
+      "https://via.placeholder.com/1200x800?text=Aurora+Headphones+2"
+    ],
+    "description": "Comfortable, noise-isolating wireless headphones with 30-hour battery life.",
+    "specifications": {
+      "connectivity": "Bluetooth 5.3",
+      "battery": "30h",
+      "weight": "210g"
+    },
+    "_id": "198e0e4cfe138004a"
+  },
+  {
+    "name": "Nimbus Smartwatch S2",
+    "category": "Wearables",
+    "brand": "Nimbus",
+    "price": 149.0,
+    "rating": 4.2,
+    "reviewCount": 89,
+    "stock": 80,
+    "image": "https://via.placeholder.com/600x600?text=Nimbus+S2",
+    "images": [
+      "https://via.placeholder.com/1200x800?text=Nimbus+S2+1",
+      "https://via.placeholder.com/1200x800?text=Nimbus+S2+2"
+    ],
+    "description": "Water-resistant smartwatch with heart-rate monitoring and GPS.",
+    "specifications": {
+      "waterResistance": "5 ATM",
+      "gps": true,
+      "battery": "7 days"
+    },
+    "_id": "198e0e4cfe145bafd"
+  },
+  {
+    "name": "Volt Portable Charger 20K",
+    "category": "Electronics",
+    "brand": "Volt",
+    "price": 39.95,
+    "rating": 4.4,
+    "reviewCount": 512,
+    "stock": 300,
+    "image": "https://via.placeholder.com/600x600?text=Volt+20K",
+    "images": [
+      "https://via.placeholder.com/1200x800?text=Volt+20K+1",
+      "https://via.placeholder.com/1200x800?text=Volt+20K+2"
+    ],
+    "description": "20000mAh fast-charging power bank with USB-C PD.",
+    "specifications": {
+      "capacity": "20000mAh",
+      "pd": "20W",
+      "ports": 3
+    },
+    "_id": "198e0e4cfe1d8637d"
+  }
+]

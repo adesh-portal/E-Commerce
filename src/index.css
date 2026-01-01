@@ -1,0 +1,77 @@
+:root {
+    color-scheme: light dark;
+    --bg: #fcfaf8;
+    --surface: #ffffff;
+    --text: #1b140e;
+    --muted: #976f4e;
+    --border: #f3ede7;
+    --accent: #e88330;
+}
+
+html.dark:root {
+    --bg: #0b0b0b;
+    --surface: #161616;
+    --text: #e6e6e6;
+    --muted: #b5a79f;
+    --border: #262626;
+    --accent: #ff944d;
+}
+
+html.dark body {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+body {
+    margin: 0 !important; 
+    /* display: flex
+; */
+    /* place-items: center; */
+    min-width: 320px !important;
+    min-height: 100vh !important;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+/* Global theming for common utility classes used across the app */
+/* Surfaces */
+.bg-white,
+.bg-\[\#f8f5f1\],
+.bg-gray-50,
+.bg-gray-100,
+.bg-\[\#fcfaf8\] {
+    background-color: var(--surface) !important;
+}
+
+/* Text colors */
+.text-\[\#1b140e\],
+.text-gray-900,
+.text-gray-800 {
+    color: var(--text) !important;
+}
+
+.text-\[\#976f4e\],
+.text-gray-600,
+.text-gray-500 {
+    color: var(--muted) !important;
+}
+
+/* Borders */
+.border-\[\#f3ede7\],
+.border-gray-100,
+.border-gray-200 {
+    border-color: var(--border) !important;
+}
+
+/* Accent buttons/backgrounds keep accent color (light/dark consistent) */
+.bg-\[\#e88330\] {
+    background-color: var(--accent) !important;
+}
+
+.text-\[\#e88330\] {
+    color: var(--accent) !important;
+}
+
+.border-\[\#e88330\] {
+    border-color: var(--accent) !important;
+}
